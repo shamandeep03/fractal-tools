@@ -1,0 +1,42 @@
+[
+    {
+        "website": "numbermagics-numbertools",
+        "feature": "convert-numbers-to-image"
+    },
+    {
+        "website": "numbermagics-numbertools",
+        "feature": "draw-pascal-triangle"
+    },
+    {
+        "website": "numbermagics-numbertools",
+        "feature": "generate-arithmetic-sequence"
+    },
+    {
+        "website": "numbermagics-numbertools",
+        "feature": "generate-geometric-sequence"
+    },
+    {
+        "website": "numbermagics-numbertools",
+        "feature": "generate-pi-digits"
+    },
+    {
+        "website": "numbermagics-numbertools",
+        "feature": "generate-prime-numbers"
+    },
+    {
+        "website": "numbermagics-numbertools",
+        "feature": "generate-random-matrices"
+    },
+    {
+        "website": "numbermagics-numbertools",
+        "feature": "generate-random-numbers"
+    },
+    {
+        "website": "numbermagics-numbertools",
+        "feature": "generate-random-prime-numbers"
+    },
+    {
+        "website": "numbermagics-numbertools",
+        "feature": "generate-random-vectors"
+    }
+]

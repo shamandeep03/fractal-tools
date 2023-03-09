@@ -1,0 +1,151 @@
+<div class="workspace container" style="display:none">
+     <div class="row">
+          <div class="col-12">
+               <div class="download-wrapper mt-3">
+                    <div class="row rowclass">
+                         <div class="col-7">
+                              <div class="d-flex align-items-center">
+                                   <div class="download-format">
+                                        <div class="copy-tooltip" data-tooltip="Copy">
+                                             <button class="btn" id="copy-button" style="background-color: blue;">
+                                                  Copy<i class="ml-3 m-0 fas fa-copy"></i></button>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-5">
+                              <div class="d-flex align-items-center">
+                                   <button id="download-button" style="background-color:blue;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                             <path
+                                                  d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM382.6 302.6l-103.1 103.1C270.7 414.6 260.9 416 256 416c-4.881 0-14.65-1.391-22.65-9.398L129.4 302.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 306.8V128c0-17.69 14.33-32 32-32s32 14.31 32 32v178.8l49.38-49.38c12.5-12.5 32.75-12.5 45.25 0S395.1 290.1 382.6 302.6z">
+                                             </path>
+                                        </svg>Download
+                                   </button>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <div class="row">
+          <div class="col-md-7 mx-auto mb-2">
+               <div class="select-img-panel">
+                    <div id="canvas-box-panel">
+                         <div id="result-box"><canvas class="preview"></canvas><canvas class="data"></canvas></div>
+                    </div>
+               </div>
+          </div>
+          <div class="col-md-5">
+               <div class="options-panel">
+                    <div class="row">
+                         <div class="main-title">Peano Fractal's Form</div>
+                         <input type="hidden" name="tool-url" value="create-custom-list">
+                         <input type="hidden" name="tool-type" value="generator">
+                         <div class="col-12">
+                              <div class="tool-message" style="display: none;">
+                                   <div class="tool-message-message alert alert-danger"></div>
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                  <label><input type="radio" id="regular-form" checked aria-label="regular-form" data-name="regular-form"
+                                   name="countall"></label>
+                                  <label>Space-filling</label>
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                  <label><input type="radio" id="rhombus-form" aria-label="rhombus-form" data-name="rhombus-form"
+                                   name="countall"></label>
+                                  <label>Diamond-shaped</label>
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                  <label><input type="checkbox" id="rounded-corners" aria-label="rounded-corners" data-name="rounded-corners"
+                                   name="rounded-corners"></label>
+                                  <label>Smooth Corners</label>
+                              </div>
+                         </div>
+                         <div class=""><b>Recursion, Size and Colors</b></div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Recursive depth of the fractal</div>
+                                   <input type="text" data-name="iterations" aria-label="iterations" class="input-style" value="3" 
+                                   name="iterations" id="iterations">
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="input-box">
+                                   <div class="input-title">Width</div>
+                                   <input type="text" data-name="width" aria-label="width" class="input-style" value="600" 
+                                   name="width" id="width">
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="input-box">
+                                   <div class="input-title">Height</div>
+                                   <input type="text" data-name="height" aria-label="height" class="input-style" value="600" 
+                                   name="height" id="height">
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Fractal background color</div>
+                                   <div class="color">
+                                        <input type="text" style="width:83%;" id="background-color" class="input-style"
+                                             aria-label="background-color" data-name="background-color" value="#bd1262"
+                                             name="background-color">
+                                        <input id="background-color-val" aria-label="background-color-val" type="color"
+                                             value="#bd1262" onchange="colorchange('background-color')"
+                                             style="width: 15%;">
+                                        <img src="/assets/images/color.svg" height="35" width="35" alt="_color">
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Fractal curve's color</div>
+                                   <div class="color">
+                                        <input type="text" style="width:83%;" id="line-segment-color" class="input-style"
+                                             aria-label="line-segment-color" data-name="line-segment-color" value="#ffff00"
+                                             name="line-segment-color">
+                                        <input id="line-segment-color-val" aria-label="line-segment-color-val" type="color"
+                                             value="#ffff00" onchange="colorchange('line-segment-color')"
+                                             style="width: 15%;">
+                                        <img src="/assets/images/color.svg" height="35" width="35" alt="_color">
+                                   </div>
+                              </div>
+                         </div>
+                         <div class=""><b>Curve, Padding and Orientation</b></div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Fractal curve's thickness</div>
+                                   <input type="text" data-name="line-width" aria-label="line-width" class="input-style" value="3" 
+                                   name="line-width" id="line-width">
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Padding</div>
+                                   <input type="text" data-name="padding" aria-label="padding" class="input-style" value="10" 
+                                   name="padding" id="padding">
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Peano fractal's orientation</div>
+                                   <select id="direction" aria-label="direction" name="direction" data-name="direction" class="input-style">
+                                        <option value="down">Down</option>
+                                        <option value="up" selected="">Up</option>
+                                        <option value="left">Left</option>
+                                        <option value="right">Right</option>
+                                    </select>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>

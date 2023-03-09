@@ -1,0 +1,159 @@
+{
+  "Language": "English",
+  "htmlLangAtt": "en",
+  "h1": "Free Online Number Tools - numbermagics.com",
+  "h2": "Simple, free and easy to use number utilities",
+  "TITLE": "Free Online Number Tools - numbermagics.com",
+  "META": "Simplest collection of useful utilities for working with numbers. Generate number sequences, create random numbers, sort, round, convert numbers, and more.",
+  "keywords": "",
+  "color": "skyblue",
+  "features": [
+    {
+      "url": "/draw-canopy-fractal",
+      "name": "draw canopy fractal",
+      "description": "Smart tool for draw canopy fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-mcworter-dendrite-fractal",
+      "name": "draw mcworter dendrite fractal",
+      "description": "Smart tool for draw mcworter dendrite fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-flowsnake-fractal",
+      "name": "draw flowsnake fractal",
+      "description": "Smart tool for draw flowsnake fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-morton-fractal",
+      "name": "draw morton fractal",
+      "description": "Smart tool for draw morton fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-v-fractal",
+      "name": "draw v fractal",
+      "description": "Smart tool for draw v fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-peano-fractal",
+      "name": "draw peano fractal",
+      "description": "Smart tool for draw peano fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-heighway-fractal",
+      "name": "draw heighway fractal",
+      "description": "Smart tool for draw heighway fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-twin-heighway-fractal",
+      "name": "draw twin heighway fractal",
+      "description": "Smart tool for draw twin heighway fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-triangle-dragon-fractal",
+      "name": "draw triangle dragon fractal",
+      "description": "Smart tool for draw triangle dragon fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-koch-fractal",
+      "name": "draw koch fractal",
+      "description": "Smart tool for draw koch fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-triflake-fractal",
+      "name": "draw triflake fractal",
+      "description": "Smart tool for draw triflake fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-sierpinski-fractal",
+      "name": "draw sierpinski fractal",
+      "description": "Smart tool for draw sierpinski fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-hexaflake-fractal",
+      "name": "draw hexaflake fractal",
+      "description": "Smart tool for draw hexaflake fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-multiflake-fractal",
+      "name": "draw multiflake fractal",
+      "description": "Smart tool for draw multiflake fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-cantor-fractal",
+      "name": "draw cantor fractal",
+      "description": "Smart tool for draw cantor fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-cantor-dust-fractal",
+      "name": "draw cantor dust fractal",
+      "description": "Smart tool for draw cantor dust fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-levy-fractal",
+      "name": "draw levy fractal",
+      "description": "Smart tool for draw levy fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-frosty-fractal",
+      "name": "draw frosty fractal",
+      "description": "Smart tool for draw frosty fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-pythagoras-fractal",
+      "name": "draw pythagoras fractal",
+      "description": "Smart tool for draw pythagoras fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-t-square-fractal",
+      "name": "draw t square fractal",
+      "description": "Smart tool for draw t square fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    },
+    {
+      "url": "/draw-hausdorff-fractal",
+      "name": "draw hausdorff fractal",
+      "description": "Smart tool for draw hausdorff fractal",
+      "color": "#194FE6",
+      "icon": "/assets/images/home-ImResizer.png"
+    }
+  ]
+}

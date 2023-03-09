@@ -1,0 +1,235 @@
+<div class="workspace container" style="display:none">
+     <div class="row">
+          <div class="col-12">
+               <div class="download-wrapper mt-3">
+                    <div class="row rowclass">
+                         <div class="col-7">
+                              <div class="d-flex align-items-center">
+                                   <div class="download-format">
+                                        <div class="copy-tooltip" data-tooltip="Copy">
+                                             <button class="btn" id="copy-button" style="background-color: blue;">
+                                                  Copy<i class="ml-3 m-0 fas fa-copy"></i></button>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-5">
+                              <div class="d-flex align-items-center">
+                                   <button id="download-button" style="background-color:blue;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                             <path
+                                                  d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM382.6 302.6l-103.1 103.1C270.7 414.6 260.9 416 256 416c-4.881 0-14.65-1.391-22.65-9.398L129.4 302.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 306.8V128c0-17.69 14.33-32 32-32s32 14.31 32 32v178.8l49.38-49.38c12.5-12.5 32.75-12.5 45.25 0S395.1 290.1 382.6 302.6z">
+                                             </path>
+                                        </svg>Download
+                                   </button>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <div class="row">
+          <div class="col-md-7 mx-auto mb-2">
+               <div class="select-img-panel">
+                    <div id="canvas-box-panel">
+                         <div id="result-box"><canvas class="preview"></canvas><canvas class="data"></canvas></div>
+                    </div>
+               </div>
+          </div>
+          <div class="col-md-5">
+               <div class="options-panel">
+                    <div class="row">
+                         <div class="main-title">Canopy fractal options</div>
+                         <input type="hidden" name="tool-url" value="create-custom-list">
+                         <input type="hidden" name="tool-type" value="generator">
+                         <div class="col-12">
+                              <div class="tool-message" style="display: none;">
+                                   <div class="tool-message-message alert alert-danger"></div>
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="input-box">
+                                   <div class="input-title">Left Angle</div>
+                                   <input type="text" data-name="left-angle" aria-label="left-angle" class="input-style"
+                                        value="16" name="left-angle" id="left-angle">
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="input-box">
+                                   <div class="input-title">Right Angle</div>
+                                   <input type="text" data-name="right-angle" aria-label="right-angle"
+                                        class="input-style" value="16" name="right-angle" id="right-angle">
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="input-box">
+                                   <div class="input-title">Left Length</div>
+                                   <input type="text" data-name="left-length-factor" aria-label="left-length-factor"
+                                        class="input-style" value="1" name="left-length-factor" id="left-length-factor">
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="input-box">
+                                   <div class="input-title">Right Length</div>
+                                   <input type="text" data-name="right-length-factor" aria-label="right-length-factor"
+                                        class="input-style" value="1" name="right-length-factor"
+                                        id="right-length-factor">
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="input-box">
+                                   <div class="input-title">Left Width</div>
+                                   <input type="text" data-name="left-width-factor" aria-label="left-width-factor"
+                                        class="input-style" value=".9" name="left-width-factor" id="left-width-factor">
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="input-box">
+                                   <div class="input-title">Right Width</div>
+                                   <input type="text" data-name="right-width-factor" aria-label="right-width-factor"
+                                        class="input-style" value="0.9" name="right-width-factor"
+                                        id="right-width-factor">
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Canopy fractal's trunk width</div>
+                                   <input type="text" data-name="line-width" aria-label="line-width" class="input-style"
+                                        value="10" name="line-width" id="line-width">
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <label><input type="checkbox" id="skip-trunk" aria-label="skip-trunk"
+                                             data-name="skip-trunk" name="skip-trunk"></label>
+                                   <label>Skip the Trunk</label>
+                              </div>
+                         </div>
+                         <div class=""><b>Iterations, Space and Direction</b></div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Number of branch levels</div>
+                                   <input type="text" data-name="iterations" aria-label="iterations" class="input-style"
+                                        value="9" name="iterations" id="iterations">
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="input-box">
+                                   <div class="input-title">Space width</div>
+                                   <input type="text" data-name="width" aria-label="width" class="input-style"
+                                        value="600" name="width" id="width">
+                              </div>
+                         </div>
+                         <div class="col-6">
+                              <div class="input-box">
+                                   <div class="input-title">Space height</div>
+                                   <input type="text" data-name="height" aria-label="height" class="input-style"
+                                        value="600" name="height" id="height">
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Padding around the canopy</div>
+                                   <input type="text" data-name="padding" aria-label="padding" class="input-style"
+                                        value="15" name="padding" id="padding">
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Tree growth direction</div>
+                                   <select id="direction" aria-label="direction" name="direction" data-name="direction"
+                                        class="input-style">
+                                        <option value="down">Down</option>
+                                        <option value="up" selected="">Up</option>
+                                        <option value="left">Left</option>
+                                        <option value="right">Right</option>
+                                   </select>
+                              </div>
+                         </div>
+                         <div class=""><b>Gradient and Colors</b></div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <label><input type="radio" id="gradient-in-tree-direction" checked
+                                             aria-label="gradient-in-tree-direction"
+                                             data-name="gradient-in-tree-direction" name="countall"></label>
+                                   <label>Linear Gradient</label>
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <label><input type="radio" id="individual-segment-gradient"
+                                             aria-label="individual-segment-gradient"
+                                             data-name="individual-segment-gradient" name="countall"></label>
+                                   <label>Segment Gradient</label>
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <label><input type="radio" id="gradient-from-trunk-to-twigs"
+                                             aria-label="gradient-from-trunk-to-twigs"
+                                             data-name="gradient-from-trunk-to-twigs" name="countall"></label>
+                                   <label>Trunk to Twigs Gradient</label>
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Branch gradient</div>
+                                   <div class="color">
+                                        <input type="text" style="width:83%;" id="line-from-color" class="input-style"
+                                             aria-label="line-from-color" data-name="line-from-color" value="#04ffee"
+                                             name="line-from-color">
+                                        <input id="line-from-color-val" aria-label="line-from-color-val" type="color"
+                                             value="#04ffee" onchange="colorchange('line-from-color')"
+                                             style="width: 15%;">
+                                        <img src="/assets/images/color.svg" height="35" width="35" alt="_color">
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Branch gradient</div>
+                                   <div class="color">
+                                        <input type="text" style="width:83%;" id="line-to-color" class="input-style"
+                                             aria-label="line-to-color" data-name="line-to-color" value="#ff01ff"
+                                             name="line-to-color">
+                                        <input id="line-to-color-val" aria-label="line-to-color-val" type="color"
+                                             value="#ff01ff" onchange="colorchange('line-to-color')"
+                                             style="width: 15%;">
+                                        <img src="/assets/images/color.svg" height="35" width="35" alt="_color">
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Background gradient</div>
+                                   <div class="color">
+                                        <input type="text" style="width:83%;" id="background-from-color"
+                                             class="input-style" aria-label="background-from-color"
+                                             data-name="background-from-color" value="#001ca3"
+                                             name="background-from-color">
+                                        <input id="background-from-color-val" aria-label="background-from-color-val"
+                                             type="color" value="#001ca3"
+                                             onchange="colorchange('background-from-color')" style="width: 15%;">
+                                        <img src="/assets/images/color.svg" height="35" width="35" alt="_color">
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12">
+                              <div class="input-box">
+                                   <div class="input-title">Background gradient</div>
+                                   <div class="color">
+                                        <input type="text" style="width:83%;" id="background-to-color"
+                                             class="input-style" aria-label="background-to-color"
+                                             data-name="background-to-color" value="black" name="background-to-color">
+                                        <input id="background-to-color-val" aria-label="background-to-color-val"
+                                             type="color" value="black" onchange="colorchange('background-to-color')"
+                                             style="width: 15%;">
+                                        <img src="/assets/images/color.svg" height="35" width="35" alt="_color">
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>

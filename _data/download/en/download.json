@@ -1,0 +1,82 @@
+{
+  "Language": "English",
+  "htmlLangAtt": "en",
+  "successmessage": "Hurray! your operation was completed",
+  "tryfeatureheading": "You can also try these features",
+  "rateus": "Rate us",
+  "votes": "votes",
+  "socialshareheading": "We are a free to use platform for safe processing of your files. We need your support to grow. Help us by sharing us on social media. Thanks !",
+  "recommendedsitesheading": "Try our other sites for safe processing of you files!",
+  "recommendedfeatures": [
+    {
+      "name": "Arithmetic Sequence",
+      "description": "Generate Arithmetic Sequence",
+      "color": "#6976F2",
+      "icon": "/assets/images/home-ImResizer.png",
+      "url": "/generate-arithmetic-sequence"
+    },
+    {
+      "name": "Geometric Sequence",
+      "description": "Generate Geometric  Sequence",
+      "color": "#ff704d",
+      "icon": "/assets/images/home.png",
+      "url": "/generate-geometric-sequence"
+    },
+    {
+      "name": "Pascal Triangle",
+      "description": "Draw Pascal Triangle",
+      "color": "#E54C4B",
+      "icon": "/assets/images/home.png",
+      "url": "/draw-pascal-triangle"
+    },
+    {
+      "name": "Numbers to Picture",
+      "description": "Convert Numbers to Picture",
+      "color": "#42A5F5",
+      "icon": "/assets/images/home.png",
+      "url": "/convert-numbers-to-image"
+    },
+    {
+      "name": "Generate Random Numbers",
+      "description": "Generate Random Numbers",
+      "color": "#430096",
+      "icon": "/assets/images/home.png",
+      "url": "/generate-random-numbers"
+    },
+    {
+      "name": "Random Prime Numbers",
+      "description": "Generate random prime numbers",
+      "color": "#f00075",
+      "icon": "/assets/images/home.png",
+      "url": "/generate-random-prime-numbers"
+    },
+    {
+      "name": "Random Matrices",
+      "description": "Generate  Random Matrices",
+      "color": "#194FE6",
+      "icon": "/assets/images/home.png",
+      "url": "/generate-random-matrices"
+    },
+    {
+      "name": "Generate Random Vectors",
+      "description": "Generate Random Vectors",
+      "color": "#000",
+      "icon": "/assets/images/home.png",
+      "url": "/generate-random-vectors"
+    },
+    {
+      "name": "Generate pi  digits",
+      "description": "Generate pi  digits",
+      "color": "#ff704d",
+      "icon": "/assets/images/home.png",
+      "url": "/generate-pi-digits"
+    },
+    {
+      "name": "Generate Prime Numbers",
+      "description": "Generate Prime Numbers",
+      "color": "#6666ff",
+      "icon": "/assets/images/home.png",
+      "url": "/generate-prime-numbers"
+    }
+  ]
+}

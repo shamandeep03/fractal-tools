@@ -1,0 +1,250 @@
+{
+  "navbarBrandText": "",
+  "navbarBrandLogo": "/assets/images/numbermagics.svg",
+  "navbarBrandLogoWidth": "42px",
+  "navbarBrandLogoHeight": "42px",
+  "megaMenu": {
+    "nav-link-name": "Tools",
+    "dropdown": [
+      {
+        "categoryName": "Number tools",
+        "links": [
+          {
+            "name": "Arithmetic Sequence",
+            "description": "Generate Arithmetic Sequence",
+            "url": "/tools/generate-arithmetic-sequence"
+          },
+          {
+            "name": "Geometric Sequence",
+            "description": "Generate Geometric  Sequence",
+            "url": "/tools/generate-geometric-sequence"
+          },
+          {
+            "name": "Pascal Triangle",
+            "description": "Draw Pascal Triangle",
+            "url": "/tools/draw-pascal-triangle"
+          },
+          {
+            "name": "Numbers to Picture",
+            "description": "Convert Numbers to Picture",
+            "url": "/tools/convert-numbers-to-image"
+          },
+          {
+            "name": "Generate Random Numbers",
+            "description": "Generate Random Numbers",
+            "url": "/tools/generate-random-numbers"
+          },
+          {
+            "name": "Random Prime Numbers",
+            "description": "Generate random prime numbers",
+            "url": "/tools/generate-random-prime-numbers"
+          },
+          {
+            "name": "Random Matrices",
+            "description": "Generate  Random Matrices",
+            "url": "/tools/generate-random-matrices"
+          },
+          {
+            "name": "Generate Random Vectors",
+            "description": "Generate Random Vectors",
+            "url": "/tools/generate-random-vectors"
+          },
+          {
+            "name": "Generate pi  digits",
+            "description": "Generate pi  digits",
+            "url": "/tools/generate-pi-digits"
+          },
+          {
+            "name": "Generate Prime Numbers",
+            "description": "Generate Prime Numbers",
+            "url": "/tools/generate-prime-numbers"
+          }
+        ]
+      },
+      {
+        "categoryName": "Number tools",
+        "links": [
+          {
+            "url": "/tools/calculate-digit-product",
+            "name": "Calculate digit product"
+          },
+          {
+            "url": "/tools/calculate-digit-sum",
+            "name": "Calculate digit sum"
+          },
+          {
+            "url": "/tools/calculate-e-digits",
+            "name": "Calculate e digits"
+          },
+          {
+            "url": "/tools/calculate-fibonacci-numbers",
+            "name": "Calculate fibonacci numbers"
+          },
+          {
+            "url": "/tools/calculate-number-divisors",
+            "name": "Calculate number divisors"
+          },
+          {
+            "url": "/tools/calculate-number-product",
+            "name": "Calculate number product"
+          },
+          {
+            "url": "/tools/calculate-number-sum",
+            "name": "Calculate number sum"
+          },
+          {
+            "url": "/tools/calculate-phi-digits",
+            "name": "Calculate phi digits"
+          },
+          {
+            "url": "/tools/calculate-pi-digits",
+            "name": "Calculate pi digits"
+          },
+          {
+            "url": "/tools/calculate-prime-factors",
+            "name": "Calculate prime factors"
+          },
+          {
+            "url": "/tools/calculate-prime-numbers",
+            "name": "Calculate prime numbers"
+          },
+          {
+            "url": "/tools/change-number-base",
+            "name": "Change number base"
+          },
+          {
+            "url": "/tools/check-number-palindrome",
+            "name": "Check number palindrome"
+          },
+          {
+            "url": "/tools/convert-number-to-negadecimal",
+            "name": "Convert number to negadecimal"
+          },
+          {
+            "url": "/tools/convert-number-to-power-of-ten",
+            "name": "Convert number to power of ten"
+          },
+          {
+            "url": "/tools/convert-number-to-power-of-two",
+            "name": "Convert number to power of two"
+          },
+          {
+            "url": "/tools/convert-numbers-to-words",
+            "name": "Convert numbers to words"
+          }
+        ]
+      },
+      {
+        "categoryName":"Number tools",
+        "links":[
+          {
+            "url": "/tools/convert-words-to-numbers",
+            "name": "Convert words to numbers"
+          },
+          {
+            "url": "/tools/create-number-palindrome",
+            "name": "Create number palindrome"
+          },
+          {
+            "url": "/tools/create-unicode-fractions",
+            "name": "Create unicode fractions"
+          },
+          {
+            "url": "/tools/filter-numbers",
+            "name": "Filter numbers"
+          },
+          {
+            "url": "/tools/find-greatest-common-divisor",
+            "name": "Find greatest common divisor"
+          },
+          {
+            "url": "/tools/find-maximum-number",
+            "name": "Find maximum number"
+          },
+          {
+            "url": "/tools/find-minimum-number",
+            "name": "Find minimum number"
+          },
+          {
+            "url": "/tools/generate-even-numbers",
+            "name": "Generate even numbers"
+          },
+          {
+            "url": "/tools/generate-fibonacci-like-series",
+            "name": "Generate fibonacci like series"
+          },
+          {
+            "url": "/tools/generate-integers",
+            "name": "Generate integers"
+          },
+          {
+            "url": "/tools/generate-look-and-say-numbers",
+            "name": "Generate look and say numbers"
+          },
+          {
+            "url": "/tools/generate-odd-numbers",
+            "name": "Generate odd numbers"
+          },
+          {
+            "url": "/tools/generate-powers-of-ten",
+            "name": "Generate powers of ten"
+          },
+          {
+            "url": "/tools/generate-powers-of-two",
+            "name": "Generate powers of two"
+          },
+          {
+            "url": "/tools/generate-sequence-of-cubes",
+            "name": "Generate sequence of cubes"
+          },
+          {
+            "url": "/tools/generate-sequence-of-squares",
+            "name": "Generate sequence of squares"
+          },
+          {
+            "url": "/tools/generate-unit-matrix",
+            "name": "Generate unit matrix"
+          },
+          {
+            "url": "/tools/linear-recurrence-calculator",
+            "name": "Linear recurrence calculator"
+          },
+          {
+            "url": "/tools/matrix-determinant-calculator",
+            "name": "Matrix determinant calculator"
+          },
+          {
+            "url": "/tools/number-primality-test",
+            "name": "Number primality test"
+          },
+          {
+            "url": "/tools/pick-a-number",
+            "name": "Pick a number"
+          },
+          {
+            "url": "/tools/round-a-number",
+            "name": "Round a number"
+          },
+          {
+            "url": "/tools/shuffle-digits",
+            "name": "Shuffle digits"
+          },
+          {
+            "url": "/tools/sort-digits",
+            "name": "Sort digits"
+          },
+          {
+            "url": "/tools/sort-numbers",
+            "name": "Sort numbers"
+          }
+        ]
+      }
+    ]
+  },
+  "navItems": [
+    {
+      "name": "Blog",
+      "url": "/blog"
+    }
+  ]
+}
