@@ -1,0 +1,46 @@
+<div class="container">
+     <div class="box-area">
+          <div class="row">
+               <div class="col-md-12">
+                    <div class="rating-area">
+                         <p id="ratings"></p>
+                    </div>
+               </div>
+               <div class="col-md-6">
+                    <div class="box-container"></div>
+               </div>
+               <div class="col-md-6">
+                    <div id="controls">
+                         <div id="controls1">
+                              <h5>Features</h5>
+                              <div id="messagebox" style="display: none;"></div>
+                              <div id="difficultymessagebox" style="display: none;"></div>
+                              <label style="text-align: start;">Solving</label><br>
+                              <button type="button" class="btn primary" data-action="new_game" id="new_game">New
+                                   Game</button>
+                              <button type="button" class="btn primary" data-action="solve">Solve</button>
+                              <button type="button" class="btn primary" data-action="validate">Validate</button>
+                         </div>
+                         <!-- <div id="controls3">
+                              <button type="button" class="btn primary tooltip" data-action="solve_selected" id="solve_selected">Solve
+                                   Cell  <span class="tooltiptext">please select any input cell</span></button>
+                         </div> -->
+                         <div id="controls2" style="display: none;">
+                              <label style="text-align: start;">Samples</label>
+                              <button type="button" class="btn primary" onclick="get_speed(60)" data-action="newGame">Simple Puzzle</button>
+                              <button type="button" class="btn primary" onclick="get_speed(50)" data-action="newGame">Easy Puzzle</button>
+                              <button type="button" class="btn primary" onclick="get_speed(40)" data-action="newGame">Medium Puzzle</button>
+                              <button type="button" class="btn primary" onclick="get_speed(30)" data-action="newGame">Hard Puzzle</button>
+                              <div id="close-area"><button data-action="close">Close</button></div>
+                         </div>
+                         <div id="controls3">
+                              <label style="text-align: start;">Puzzle Analysis</label><br>
+                              <button type="button" class="btn primary" data-action="check">check</button>
+                              <button type="button" class="btn primary" data-action="difficulty">Rate Difficulty</button>
+                              <button type="button" class="btn primary" data-action="reset">clean</button>
+                         </div> 
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>

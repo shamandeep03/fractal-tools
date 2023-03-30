@@ -66,4 +66,11 @@
 <url>
 <loc>http://localhost:4000/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/sudoku-solutions</loc>
+</url>
+<url>
+<loc>http://localhost:4000/hello.html</loc>
+<lastmod>2023-03-30T20:02:10+05:30</lastmod>
+</url>
 </urlset>
